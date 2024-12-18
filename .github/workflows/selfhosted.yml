@@ -75,7 +75,7 @@ on:
 
 jobs:
   Start-Runner:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
 
     steps:
     - name: Checkout code
@@ -125,7 +125,7 @@ jobs:
         fi "
   prepare:
     name: Prepare for Building
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-22.04
     steps:
     - name: Check-out to repository
       uses: actions/checkout@v4
